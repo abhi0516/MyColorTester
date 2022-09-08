@@ -17,7 +17,7 @@
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
             android:text="First Name"
-            android:paddingTop="@dimen/topPadding"
+            android:paddingTop="@dimen/topPadding"></TextView>
 
 
     </LinearLayout>
