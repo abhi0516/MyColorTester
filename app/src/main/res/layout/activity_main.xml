@@ -4,6 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorTint"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -13,11 +14,18 @@
         android:layout_margin="@dimen/screenMargin"
         android:gravity="center_horizontal"
         >
+
         <TextView
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
-            android:text="First Name"
-            android:paddingTop="@dimen/topPadding"></TextView>
+            android:paddingTop="@dimen/topPadding"
+            android:text="First Name" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="TextView" />
 
 
     </LinearLayout>
