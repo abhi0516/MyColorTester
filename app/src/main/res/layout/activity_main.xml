@@ -15,17 +15,36 @@
         android:gravity="center_horizontal"
         >
 
-        <TextView
+
+        <EditText
+            android:id="@+id/userFirstName"
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
             android:paddingTop="@dimen/topPadding"
-            android:text="First Name" />
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/fontSize"
+            android:hint="Enter First Name" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="58dp"
-            android:text="TextView" />
+
+
+        <EditText
+            android:id="@+id/userLastName"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:textColor="@color/primaryTextColor"
+            android:paddingTop="@dimen/topPadding"
+            android:textSize="@dimen/fontSize"
+            android:hint="Enter Last Name" />
+
+        <EditText
+            android:id="@+id/userBirthday"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:hint="Enter Birthday(mm/dd/y)"
+            android:paddingTop="@dimen/topPadding"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/fontSize" />
+
 
 
     </LinearLayout>
