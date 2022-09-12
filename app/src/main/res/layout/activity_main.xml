@@ -26,7 +26,6 @@
             android:hint="Enter First Name" />
 
 
-
         <EditText
             android:id="@+id/userLastName"
             android:layout_width="@dimen/editTextWidth"
@@ -44,7 +43,6 @@
             android:paddingTop="@dimen/topPadding"
             android:textColor="@color/primaryTextColor"
             android:textSize="@dimen/fontSize" />
-
 
 
     </LinearLayout>
