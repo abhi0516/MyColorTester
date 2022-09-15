@@ -15,7 +15,15 @@
         android:gravity="center_horizontal"
         >
 
-
+        <TextView
+            android:id="@+id/shipment_info"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="80dp"
+            android:hint="Shipping Information"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/fontLarge" />
         <EditText
             android:id="@+id/userFirstName"
             android:layout_width="@dimen/editTextWidth"
@@ -25,7 +33,6 @@
             android:textSize="@dimen/fontSize"
             android:hint="Enter First Name" />
 
-
         <EditText
             android:id="@+id/userLastName"
             android:layout_width="@dimen/editTextWidth"
@@ -34,15 +41,45 @@
             android:paddingTop="@dimen/topPadding"
             android:textSize="@dimen/fontSize"
             android:hint="Enter Last Name" />
-
         <EditText
-            android:id="@+id/userBirthday"
+            android:id="@+id/userAddress"
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
-            android:hint="Enter Birthday(mm/dd/y)"
+            android:hint="Enter Address Line"
             android:paddingTop="@dimen/topPadding"
             android:textColor="@color/primaryTextColor"
             android:textSize="@dimen/fontSize" />
+
+        <EditText
+            android:id="@+id/userCity"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:hint="Enter City"
+            android:paddingTop="@dimen/topPadding"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/fontSize" />
+        <EditText
+            android:id="@+id/userState"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:hint="Enter State"
+            android:paddingTop="@dimen/topPadding"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/fontSize" />
+        <EditText
+            android:id="@+id/userZIP"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:hint="Enter ZIP CODE"
+            android:paddingTop="@dimen/topPadding"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/fontSize" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="CONTINUE" />
 
 
     </LinearLayout>
