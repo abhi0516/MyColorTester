@@ -15,14 +15,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    EditText userAddress = findViewById(R.id.userAddress);
-    EditText userFirstName = findViewById(R.id.userFirstName);
-    EditText userLastName = findViewById(R.id.userLastName);
-    EditText userCity = findViewById(R.id.userCity);
-    EditText userState = findViewById(R.id.userState);
-    EditText userZip = findViewById(R.id.userZIP);
-
-    public void displayInfo(View view) {
+//    EditText userAddress = findViewById(R.id.userAddress);
+//    EditText userFirstName = findViewById(R.id.userFirstName);
+//    EditText userLastName = findViewById(R.id.userLastName);
+//    EditText userCity = findViewById(R.id.userCity);
+//    EditText userState = findViewById(R.id.userState);
+//    EditText userZip = findViewById(R.id.userZIP);
+//
+//    public void displayInfo(View view) {
 
         // I want to display all of user's personal info and billing info on second screen(billing screen)
         // Program should switch screens once CONTINUE button is pressed
@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
 //        double sum = num1 + num2;
 //        double roundedSumValue = (double) Math.round(sum * 100) / 100;
 //        numberSumTV.setText("   " + roundedSumValue);
-    }
-
-
+//    }
+//
 }
