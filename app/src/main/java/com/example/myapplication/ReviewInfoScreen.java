@@ -17,29 +17,28 @@ public class ReviewInfoScreen extends AppCompatActivity {
     }
 
     public void recalledName(View view){
-        EditText userFirstName = findViewById(R.id.userFirstName);
-        EditText userLastName = findViewById(R.id.userLastName);
-        EditText userAddress = findViewById(R.id.userAddress);
-        EditText userCity = findViewById(R.id.userCity);
-        EditText userState = findViewById(R.id.userState);
+//        EditText userFirstName = findViewById(R.id.userFirstName);
+//        EditText userLastName = findViewById(R.id.userLastName);
+//        EditText userAddress = findViewById(R.id.userAddress);
+//        EditText userCity = findViewById(R.id.userCity);
+//        EditText userState = findViewById(R.id.userState);
+
+//        EditText cardNum = findViewById(R.id.cardNumber);
+//        EditText cardCVC = findViewById(R.id.userCVC);
+//        EditText userZip = findViewById(R.id.userZIP);
         TextView resultScreen = findViewById(R.id.displayAllInfoScreen);
 
-        EditText cardNum = findViewById(R.id.cardNumber);
-        EditText cardCVC = findViewById(R.id.userCVC);
-        EditText userZip = findViewById(R.id.userZIP);
+        String firstName = ShipmentInfo.fName;
+        String lastName = ShipmentInfo.lName;
+        String address = ShipmentInfo.address;
+        String city = ShipmentInfo.city;
+        String state = ShipmentInfo.state;
+        String zip = PaymentInfo.zip;
+        String cardNumber = PaymentInfo.cardNumber;
+        String cardCVC = PaymentInfo.cvc;
 
-        String firstName = userFirstName.getText().toString();
-        String lastName = userLastName.getText().toString();
-        String address = userAddress.getText().toString();
-        String city = userCity.getText().toString();
-        String state = userState.getText().toString();
-        String zip = userZip.getText().toString();
-
-
-
-
-        resultScreen.setText(firstName + " " + lastName + "\n" + address + " " + city + " " + state + ", " + zip);
-
+        resultScreen.setText(firstName + " " + lastName + "\n" + address + " " + city + " " + state + ", " );
+        //resultScreen.setText(firstName);
     }
 
 
