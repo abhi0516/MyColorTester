@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorTint"
-    tools:context=".MainActivity">
+    tools:context=".ShipmentInfo">
 
     <LinearLayout
         android:layout_width="match_parent"

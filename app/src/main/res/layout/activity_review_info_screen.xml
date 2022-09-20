@@ -6,4 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".ReviewInfoScreen">
 
+    <TextView
+        android:id="@+id/displayAllInfoScreen"
+        android:layout_width="289dp"
+        android:layout_height="297dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <Button
+        android:id="@+id/showInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="recalledName"
+        android:text="SHOW INFO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

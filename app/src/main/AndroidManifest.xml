@@ -17,10 +17,10 @@
             android:name=".ReviewInfoScreen"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".PaymentInfo"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ShipmentInfo"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
