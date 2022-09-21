@@ -20,8 +20,8 @@
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="wrap_content"
             android:hint="Shipping Information"
-            android:paddingTop="5dp"
-            android:paddingBottom="10dp"
+            android:paddingTop="@dimen/headlineTopPadding"
+            android:paddingBottom="@dimen/headlineBottomPadding"
             android:textColor="@color/primaryTextColor"
             android:textSize="@dimen/fontLarge" />
         <EditText
@@ -29,6 +29,7 @@
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
             android:paddingTop="@dimen/topPadding"
+            android:layout_marginBottom="@dimen/bottomMargin"
             android:textColor="@color/primaryTextColor"
             android:textSize="@dimen/fontSize"
             android:hint="Enter First Name" />
@@ -38,6 +39,7 @@
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
             android:textColor="@color/primaryTextColor"
+            android:layout_marginBottom="@dimen/bottomMargin"
             android:paddingTop="@dimen/topPadding"
             android:textSize="@dimen/fontSize"
             android:hint="Enter Last Name" />
@@ -47,6 +49,7 @@
             android:layout_height="@dimen/editTextHeight"
             android:hint="Enter Address Line"
             android:paddingTop="@dimen/topPadding"
+            android:layout_marginBottom="@dimen/bottomMargin"
             android:textColor="@color/primaryTextColor"
             android:textSize="@dimen/fontSize" />
 
@@ -56,6 +59,7 @@
             android:layout_height="@dimen/editTextHeight"
             android:hint="Enter City"
             android:paddingTop="@dimen/topPadding"
+            android:layout_marginBottom="@dimen/bottomMargin"
             android:textColor="@color/primaryTextColor"
             android:textSize="@dimen/fontSize" />
         <EditText
@@ -64,16 +68,8 @@
             android:layout_height="@dimen/editTextHeight"
             android:hint="Enter State"
             android:paddingTop="@dimen/topPadding"
+            android:layout_marginBottom="@dimen/bottomMargin"
             android:textColor="@color/primaryTextColor"
-            android:textSize="@dimen/fontSize" />
-        <EditText
-            android:id="@+id/userZIP"
-            android:layout_width="@dimen/editTextWidth"
-            android:layout_height="@dimen/editTextHeight"
-            android:hint="Enter ZIP CODE"
-            android:paddingTop="@dimen/topPadding"
-            android:textColor="@color/primaryTextColor"
-            android:layout_marginBottom="10dp"
             android:textSize="@dimen/fontSize" />
 
         <Button
@@ -81,8 +77,8 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:onClick="switchScreens"
+            android:layout_gravity="center"
             android:text="CONTINUE" />
-
 
     </LinearLayout>
 </ScrollView>

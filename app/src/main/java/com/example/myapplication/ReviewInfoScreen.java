@@ -17,15 +17,6 @@ public class ReviewInfoScreen extends AppCompatActivity {
     }
 
     public void recalledName(View view){
-//        EditText userFirstName = findViewById(R.id.userFirstName);
-//        EditText userLastName = findViewById(R.id.userLastName);
-//        EditText userAddress = findViewById(R.id.userAddress);
-//        EditText userCity = findViewById(R.id.userCity);
-//        EditText userState = findViewById(R.id.userState);
-
-//        EditText cardNum = findViewById(R.id.cardNumber);
-//        EditText cardCVC = findViewById(R.id.userCVC);
-//        EditText userZip = findViewById(R.id.userZIP);
         TextView resultScreen = findViewById(R.id.displayAllInfoScreen);
 
         String firstName = ShipmentInfo.fName;
@@ -36,16 +27,10 @@ public class ReviewInfoScreen extends AppCompatActivity {
         String zip = PaymentInfo.zip;
         String cardNumber = PaymentInfo.cardNumber;
         String cardCVC = PaymentInfo.cvc;
+        String cardExpirationDate = PaymentInfo.cardExpiration;
 
-        resultScreen.setText(firstName + " " + lastName + "\n" + address + " " + city + " " + state + ", " );
-        //resultScreen.setText(firstName);
+        resultScreen.setText(firstName + " " + lastName + "\n\n" + address + "\n\n" + city + ", "
+                + state + " " + zip + "\n\nCard Number: " + cardNumber + "\n\n" + "Security Code: "
+                + cardCVC + "\n\n" + "Card Expiration Date: " + cardExpirationDate);
     }
-
-
-
-
-
-
-
-
 }

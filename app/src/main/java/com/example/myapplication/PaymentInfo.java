@@ -13,6 +13,7 @@ public class PaymentInfo extends AppCompatActivity {
     public static String zip;
     public static String cvc;
     public static String cardNumber;
+    public static String cardExpiration;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,10 +24,12 @@ public class PaymentInfo extends AppCompatActivity {
         EditText cardNum = findViewById(R.id.cardNumber);
         EditText cardCVC = findViewById(R.id.userCVC);
         EditText userZip = findViewById(R.id.userZIP);
+        EditText cardExpDate = findViewById(R.id.expDate);
 
         zip = userZip.getText().toString();
         cvc = cardCVC.getText().toString();
         cardNumber = cardNum.getText().toString();
+        cardExpiration = cardExpDate.getText().toString();
         Intent intent = new Intent(PaymentInfo.this, ReviewInfoScreen.class);
         startActivity(intent);
     }
